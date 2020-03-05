@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+}
+header,footer
+{
+  width:100%;
+  height:65px;
+  background-color:rgba(34, 49, 52, 0.9);
+}
+header img
+{
+  height:45px;
+  width: 30px;
+  padding: 10px;
+}
+header li
+{
+	float:left;
+}
+header ul
+{
+	padding-left:2px;
+	padding-bottom:7px;
+	list-style-type: none; 
+}
+header li p
+{
+	padding-top: 12px;
+	font-size: 20px;
+	font-family: 'Meddon';
+	color:#EAEDED ;
+}
+.top-wrapper
+{
+  padding-top:130px;
+  padding-bottom:100px;
+  color:white;
+  background-image:url("https://img.etimg.com/thumb/width-640,height-480,imgsize-62458,resizemode-1,msid-49086682/heres-all-you-need-to-know-about-audiobooks.jpg");
+  background-size:1500px 500px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+ /* margin-bottom:0px;
+*/}
+.top-wrapper h1,h2
+{
+  font-size:45px;
+  opacity: 1;
+  letter-spacing:5px;
+  margin-bottom:3px;
+}
+.top-wrapper .container
+{
+	/*padding-bottom: 0px;
+	margin-bottom: 20px;*/ 
+}
+.top-wrapper .container p
+{
+	opacity:0.7;
+	margin-bottom: 3px;
+	font-size: 15px;
+}
+.top-wrapper .container .mid
+{
+	margin-left: 10px;
+	text-align: justify;
+}
+.top-wrapper span
+{
+	font-family: 'Kumar One Outline';
+	font-size:45px;
+}
+
+.lesson-wrapper
+{
+	padding-top:0px ;
+	height:800px;
+	padding-bottom: 80px; 
+	background-color: #D7DBDD ;
+}
+.lesson-wrapper .heading
+{
+	padding-left: 570px;
+	padding-right: 570px;
+	font-family: 'Mansalva';
+	font-size: 60px;
+    padding-bottom:30px;
+}
+.lesson-wrapper img
+{
+	height: 250px;
+	width:250px;
+}
+.lesson-wrapper .lib
+{
+	padding-left: 220px;
+}
+.lesson-wrapper .read{
+	margin-bottom: 25px;
+	width:250px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-items: center;
+}
+.lesson-wrapper li
+{
+	float:left;
+	padding: 15px;
+	width:25%;
+	list-style-type: none;
+}
+
+
+.lesson-wrapper p{
+	padding: 10px 20px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+/*
+.lib ul
+{
+	float:left;
+}
+.books .lib li
+{
+	list-style-type: none;
+}*/
+.lib li a
+{
+	text-decoration: none;
+	float: left;
+}
+
+.lib li p
+{
+	font-family: 'Ma Shan Zheng';
+	font-size: 25px;
+}
+ footer
+ {
+ 	padding-left:15px; 
+ 	padding-top: 20px;
+ }
+ 
+ /*.book-img{
+	position: relative;
+	float: left;
+	width:25%;
+	height: 5px;
+}
+div .read
+{
+	float:left;
+	width: 25%;
+}
+*/

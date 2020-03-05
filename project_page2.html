@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Books</title>
+  <link rel="stylesheet" type="text/css" href="style_page1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet'>
+</head>
+<body>
+
+  <div class="audio-book">
+
+    <header><i class="fa fa-headphones"></i>
+    Books</header>
+
+    <div class="controls">
+      <select class="voices" name="voices">
+        <option value="">Select a voice</option>
+      </select>
+
+      <label>Rate: <input type="range" name="rate" value="1" min=0 max=5></label>
+      <p></p>
+      <label>Pitch: <input type="range" name="pitch" value="1" min=0 max=2 step=0.5></label>
+    </div>
+
+    <textarea name="text">
+      Tuesday
+First of all, let me get something straight: This
+is a Journal, not a diary. I know what it
+says on the cover, but when Mom went out to
+buy this thing I specifically told her to
+get one that didn’t say “diary” on it.
+Great. All I need is for some jerk to catch me
+carrying this book around and get the wrong idea.
+
+    </textarea>
+
+    <footer>
+      <input class="btn stop" type="button" name="stop" value="Stop">
+      <input class="btn start" type="button" name="start" value="Start">
+    </footer>
+
+  </div>
+
+  <script src="./scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://pcpls.org/wp-content/uploads/2016/02/Porter-County-Public-Library-Systems-Website-300x135.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header,
+footer {
+  /*background: #AE439E;*/
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  font-size: 50px;
+  border-radius: 10px;
+  color: #611C57;
+  font-family: 'Merienda One', cursive;
+}
+
+footer {
+  /*position: relative;*/
+  align-items: center;
+}
+/*
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+*/
+.controls {
+  width: 70%;
+  text-align: center;
+}
+
+.controls select {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.controls label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight:bold;
+}
+
+.controls input {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.audio-book {
+  background: rgba(255, 255, 255, 0.7);
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2.5px 1.5px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.audio-book textarea {
+  width: 80%;
+  height: 150px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  /*
+  border-radius: 0 0 10px 10px;*/
+}
+
+footer .btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #D8E140;
+  border: none;
+  font-family: 'Merienda One', cursive;
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 3.5px 1px rgba(0, 0, 0, 0.4);
+}
+
+footer .btn:first-child {
+  margin-right: 20px;
+}
+footer .btn:active{
+  box-shadow: none;
+  position: relative;
+  top:3.5px;
+}
+
+
+
+  
+
+
+  

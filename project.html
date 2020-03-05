@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Book</title>
+  <link rel="stylesheet" type="text/css" href="styleproject.css"> 
+
+  <link href='https://fonts.googleapis.com/css?family=Kumar One Outline' rel='stylesheet'>
+
+  <link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+
+  <link href='https://fonts.googleapis.com/css?family=Ma Shan Zheng' rel='stylesheet'>
+
+  <link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <ul>
+        <li>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/411iWvLF-sL._SY355_.png">
+    </li>
+    <li>
+      <p>GoodReads</p>
+    </li>
+  </ul>
+
+    </div>
+  </header>
+
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>I dont <span>read</span> books</h1>
+      <h2>I <span>listen</span></h2>
+      <p>Reading is a conversation.</p>
+      <p class="mid"> All books talk.</p>
+      <p> But a good book listens as well.
+      </p>
+    </div>
+  </div>
+
+  <div class="lesson-wrapper">
+      <div class="heading">
+        <h2>Library</h2>
+      </div>
+      <div class="books">
+        <ul class="lib">
+        <li>
+        <a href="project_page2.html" class="read">
+          <div class="book-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51PU%2BrBEnjL.jpg" >
+            <!--<img src="https://prog-8.com/images/html/advanced/ruby.png">-->
+            <p>Diary of a Wimpy Kid</p>
+          </div>
+       </a>
+       </li>
+       <li>
+        <a href="#" class="read">
+          <div class="book-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtS7pgKN0tN9otr_yPgb41oiAOPz0rVcn9Gr7qmWsyJ1zOtlXt">
+            <!--<img src="https://prog-8.com/images/html/advanced/ruby.png">-->
+            <p>Inferno</p>
+          </div>
+       </a>
+       </li>
+       <li>
+        <a href="#" class="read">
+          <div class="book-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81yAo5ElQlL.jpg">
+            <p>Fault in our stars</p>
+          </div>
+       </a>
+      </li>
+     <li>
+        <a href="#" class="read">
+          <div class="book-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51jpUo8k6lL._SX330_BO1,204,203,200_.jpg">
+            <p>Tinkle Digest</p>
+          </div>
+       </a>
+     </li>
+     <li>
+        <a href="#" class="read">
+          <div class="book-img">
+            <img src="https://kbimages1-a.akamaihd.net/3509e8b8-3a81-43bc-a667-95fe9de39a48/353/569/90/False/good-work-secret-seven.jpg">
+            <p>Secret Seven</p>
+          </div>
+        </a>
+      </li>
+      <li>
+       <a href="#" class="read">
+          <div class="book-img">
+            <img src="https://image.isu.pub/190206191552-534ee2bfa62cbb57b94ecf2c3c3b1b40/jpg/page_1.jpg">
+            <p>Harry Potter</p>
+          </div>
+       </a>
+     </li>
+     </ul>
+        
+      </div>
+  </div>
+
+  <footer>
+    <h3>Rate me:</h3>
+    <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" id="st1" onclick="changecolor1()" ondblclick="back1()"></i>
+    <i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true" id="st2" onclick="changecolor2()" ondblclick="back2()"></i>
+  </footer>
+  <script>
+    function changecolor1()
+    {
+
+      document.getElementById("st1").style.color="yellow";
+    }
+
+    function changecolor2()
+    {
+
+      document.getElementById("st2").style.color="yellow";
+    }
+    function back1()
+    {
+      document.getElementById("st1").style.color="black";
+    }
+    function back2()
+    {
+      document.getElementById("st2").style.color="black";
+    }
+  </script>
+</body>
+</html>
